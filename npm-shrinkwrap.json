@@ -1,5 +1,5 @@
 {
-  "name": "quill-image-resize-module",
+  "name": "quill-image-resize-module-soar",
   "version": "3.0.1",
   "dependencies": {
     "acorn": {
