@@ -1,7 +1,7 @@
 {
-  "name": "quill-image-resize-module",
-  "version": "3.0.0",
-  "description": "A module for Quill rich text editor to allow images to be resized.",
+  "name": "quill-image-resize-module-soar",
+  "version": "3.0.1",
+  "description": "A SOAR customized module for Quill rich text editor to allow images to be resized.",
   "main": "image-resize.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kensnyder/quill-image-resize-module.git"
+    "url": "git+https://github.com/CeceliaYu/quill-image-resize-module.git"
   },
   "keywords": [
     "quill",
@@ -24,8 +24,7 @@
   "author": "@kensnyder",
   "contributors": [
     {
-      "name": "Wikia",
-      "url": "https://github.com/Wikia"
+      "name": "Cecelia Yu"
     }
   ],
   "license": "MIT",
@@ -51,5 +50,8 @@
     "lodash": "^4.17.21",
     "quill": "^1.3.7",
     "raw-loader": "^0.5.1"
+  },
+  "publishConfig": {
+	"registry": "https://eu.artifactory.swg-devops.com/artifactory/api/npm/sec-resilient-npm-local"
   }
 }
