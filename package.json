@@ -1,6 +1,6 @@
 {
   "name": "quill-image-resize-module-soar",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A SOAR customized module for Quill rich text editor to allow images to be resized.",
   "main": "image-resize.min.js",
   "scripts": {
@@ -47,11 +47,11 @@
     "webpack": "^2.3.3"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "quill": "^1.3.7",
+    "lodash": "4.17.21",
+    "quill": "1.3.7",
     "raw-loader": "^0.5.1"
   },
   "publishConfig": {
-	"registry": "https://eu.artifactory.swg-devops.com/artifactory/api/npm/sec-resilient-npm-local"
+    "registry": "https://eu.artifactory.swg-devops.com/artifactory/api/npm/sec-resilient-npm-local"
   }
 }
